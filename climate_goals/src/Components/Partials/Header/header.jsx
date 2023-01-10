@@ -1,12 +1,13 @@
 import { Nav, ArrNav } from "../Nav/nav";
+import styles from "../Header/header.module.scss";
 import Logo from "../../../images/KT-Logo.png";
 const Header = () => {
   return (
-    <header>
+    <header className={styles.headerMain}>
       <div className="logo">
         <img src={Logo} alt="klima-tossen-logo" />
       </div>
-      <div className="bottom-right">
+      <div className={styles.bottomRight}>
         <p>
           "Det er rigtigt, at vi hver især kun kan bidrage lidt til den samlede
           løsning."

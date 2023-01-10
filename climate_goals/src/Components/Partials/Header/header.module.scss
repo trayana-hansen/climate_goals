@@ -1,0 +1,25 @@
+@import "../../../assets/partials/colors";
+
+.headerMain {
+  background-image: url(../../../images//Bg-Hero-Blue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  img {
+    width: 45em;
+  }
+  .bottomRight {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    p {
+      text-align: right;
+      color: $white;
+      font-size: 1.3em;
+      font-weight: lighter;
+      font-style: italic;
+      width: 35%;
+      margin-left: 63%;
+      margin-top: 0.5em;
+    }
+  }
+}

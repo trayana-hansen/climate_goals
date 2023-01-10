@@ -1,6 +1,8 @@
-.sectionOne {
-  background-color: red;
-}
-.sectionTwo {
-  background-color: pink;
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour {
+  .divider {
+    width: 100%;
+  }
 }
