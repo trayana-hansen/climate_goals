@@ -7,4 +7,11 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Open Sans Condensed", "arial";
+
+  .subText {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 3em;
+    color: $light-blue;
+  }
 }
