@@ -1,15 +1,10 @@
 //import the app
 import "./App.scss";
 
-//import our scss files to style
-// import "./Components/Partials/Footer/footer.module.scss";
-import "./Components/Partials/Header/header.module.scss";
-import "./Components/Partials/Main/main.module.scss";
-
 //import our components
 import { Header } from "./Components/Partials/Header/header";
 import { Main } from "./Components/Partials/Main/main.jsx";
-// import { Footer } from "./Components/Partials/Footer/footer.jsx";
+import { Footer } from "./Components/Partials/Footer/footer.jsx";
 
 const App = () => {
   return (
@@ -22,6 +17,7 @@ const App = () => {
         mange der trækker i den rigtige retning.”
       </p>
       <Main />
+      <Footer />
     </div>
   );
 };
