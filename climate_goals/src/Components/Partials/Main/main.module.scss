@@ -25,13 +25,16 @@ h3 {
 
 .figureMain {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 1em;
   margin: 0 1em 0 1em;
   position: relative;
+  gap: 2em;
 
   img {
     object-fit: contain;
+    max-width: 100%;
+    height: auto;
   }
 
   p {
