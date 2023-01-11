@@ -1,1 +1,59 @@
+@import "../../../assets/partials/colors";
 
+.footerMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  padding: 1em;
+  background-color: $dark-blue;
+  color: $white;
+
+  h4 {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
+  p {
+    font-size: 1em;
+  }
+  a {
+    color: $white;
+  }
+  .footerImg {
+    margin-top: 3em;
+    img {
+      width: 100%;
+    }
+  }
+  .footerForm {
+    form {
+      button {
+        width: 100%;
+        background-color: $light-blue;
+        border: none;
+        padding: 0.5em;
+        color: $white;
+        font-size: 1.1em;
+      }
+
+     
+
+      input {
+        display: block;
+        width: 100%;
+        margin-bottom: 1em;
+        padding: 0.5em;
+        background-color: $light-blue;
+        color: $white;
+        border: none;
+        &::placeholder {
+          color: $white;
+          font-size: 1.2em;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

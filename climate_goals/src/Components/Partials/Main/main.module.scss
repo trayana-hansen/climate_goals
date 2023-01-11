@@ -1,8 +1,60 @@
+@import "../../../assets/partials/colors";
+.divider {
+  width: 100%;
+  display: block;
+}
+h2 {
+  text-align: center;
+  padding-top: 0.5em;
+  font-size: 2.67em;
+  color: $white;
+  font-weight: lighter;
+}
+h3 {
+  color: $white;
+  text-indent: -7%;
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
 .sectionOne,
 .sectionTwo,
 .sectionThree,
 .sectionFour {
-  .divider {
-    width: 100%;
+  padding-bottom: 3em;
+}
+
+.figureMain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  padding: 1em;
+  margin: 0 1em 0 1em;
+  position: relative;
+
+  img {
+    object-fit: contain;
   }
+
+  p {
+    line-height: 2em;
+    color: $white;
+    font-size: 1.1em;
+  }
+  a {
+    position: absolute;
+    right: 0;
+    color: $white;
+    font-size: 1em;
+  }
+}
+.sectionOne {
+  background-color: $brown;
+}
+.sectionTwo {
+  background-color: $blue;
+}
+.sectionThree {
+  background-color: $green;
+}
+.sectionFour {
+  background-color: $light-brown;
 }
