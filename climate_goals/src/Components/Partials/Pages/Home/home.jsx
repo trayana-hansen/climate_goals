@@ -2,7 +2,7 @@ import { Section } from "../section";
 import styles from "./home.module.scss";
 
 import img1 from "../../../../images/Icon-CO2.png";
-import divider1 from "../../../../images/Spacer-01.png";
+
 
 export const Home = () => {
   return (
@@ -10,7 +10,9 @@ export const Home = () => {
       <article className={styles.sectionOne}>
         <h2>HVAD ER CO2?</h2>
         <figure className={styles.figureMain}>
-          <img src={img1} alt="CO2-logo" />
+          <div className={styles.imgCentered}>
+            <img src={img1} alt="CO2-logo" />
+          </div>
           <figcaption>
             <h3>CO2 er en gasart der findes naturligt i Jordens atmosfære.</h3>
             <p>- CO2, findes naturligt i atmosfæren.</p>
@@ -38,7 +40,6 @@ export const Home = () => {
           </figcaption>
         </figure>
       </article>
-      <img className={styles.divider} src={divider1} alt="divider-one" />
     </Section>
   );
 };

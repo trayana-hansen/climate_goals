@@ -2,7 +2,7 @@ import { Section } from "../section";
 import styles from "./co2.module.scss";
 
 import img3 from "../../../../images/Icon-Checklist.png";
-import divider3 from "../../../../images/Spacer-03.png";
+
 
 export const Co2 = () => {
   return (
@@ -10,7 +10,9 @@ export const Co2 = () => {
       <article className={styles.sectionThree}>
         <h2>HVORDAN KAN JEG BIDRAGE?</h2>
         <figure className={styles.figureMain}>
-          <img src={img3} alt="icon-checklist" />
+          <div className={styles.imgCentered}>
+            <img src={img3} alt="icon-checklist" />
+          </div>
           <figcaption>
             <h3>Hvordan belaster du miljøet mindst muligt i dagligdagen?</h3>
             <p>
@@ -42,7 +44,7 @@ export const Co2 = () => {
           </figcaption>
         </figure>
       </article>
-      <img className={styles.divider} src={divider3} alt="divider-three" />
+     
     </Section>
   );
 };

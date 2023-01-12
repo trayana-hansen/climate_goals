@@ -1,9 +1,5 @@
 @import "../../../../assets/partials/colors";
 
-.divider {
-  width: 100%;
-  display: block;
-}
 .sectionOne {
   background-color: $brown;
   padding-bottom: 3em;
@@ -21,9 +17,16 @@
     gap: 2em;
     margin: 0 1em;
     position: relative;
-    img {
-      max-width: 100%;
-      object-fit: contain;
+
+    .imgCentered {
+      display: flex;
+      justify-content: center;
+
+      img {
+        max-width: 100%;
+        object-fit: contain;
+        padding: 1.5em;
+      }
     }
     h3 {
       font-size: 1.5em;

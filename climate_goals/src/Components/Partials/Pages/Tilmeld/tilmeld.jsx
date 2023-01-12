@@ -9,7 +9,9 @@ export const Tilmeld = () => {
       <article className={styles.sectionFour}>
         <h2>DELTAG I ARRANGEMENT</h2>
         <figure className={styles.figureMain}>
+          <div className={styles.imgCentered}>
           <img src={img4} alt="icon-cleaning" />
+          </div>
           <figcaption>
             <h3>
               Deltag i eet af vores arrangementer og gør en forskel! Hvordan

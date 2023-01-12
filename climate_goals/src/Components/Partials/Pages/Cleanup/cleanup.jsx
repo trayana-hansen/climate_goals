@@ -2,7 +2,7 @@ import { Section } from "../section";
 import styles from "./cleanup.module.scss";
 
 import img2 from "../../../../images/Icon-Climate.png";
-import divider2 from "../../../../images/Spacer-02.png";
+
 
 export const Cleanup = () => {
   return (
@@ -10,7 +10,9 @@ export const Cleanup = () => {
       <article className={styles.sectionTwo}>
         <h2>KLIMA OG MILJØ?</h2>
         <figure className={styles.figureMain}>
-          <img src={img2} alt="climate-icon" />
+          <div className={styles.imgCentered}>
+            <img src={img2} alt="climate-icon" />
+          </div>
           <figcaption>
             <h3>Kort om klimaet og miljøet?</h3>
             <p>- Klima og miljø hænger sammen.</p>
@@ -36,7 +38,7 @@ export const Cleanup = () => {
           </figcaption>
         </figure>
       </article>
-      <img className={styles.divider} src={divider2} alt="divider-two" />
+   
     </Section>
   );
 };
