@@ -3,7 +3,6 @@ import "./App.scss";
 
 //import our components
 import { Header } from "./Components/Partials/Header/header";
-import { Main } from "./Components/Partials/Main/main.jsx";
 import { Footer } from "./Components/Partials/Footer/footer.jsx";
 import { BrowserRouter } from "react-router-dom";
 import AppRouter from "./Components/App/AppRouter/AppRouter"
@@ -21,7 +20,7 @@ const App = () => {
           hvor mange der trækker i den rigtige retning.”
         </p>
 
-        <Main> <AppRouter /></Main>
+        <AppRouter />
         <Footer />
       </div>
     </BrowserRouter>

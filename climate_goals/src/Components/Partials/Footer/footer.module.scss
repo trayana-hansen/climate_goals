@@ -75,3 +75,11 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .footerMain {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
