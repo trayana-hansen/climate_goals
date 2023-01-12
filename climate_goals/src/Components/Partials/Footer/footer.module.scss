@@ -32,17 +32,17 @@
   .footerForm {
     form {
       .checkboxFooter {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 1em;
+        display: flex;
+        justify-content: space-between;
 
         label {
-          font-size: 1.5vw;
+          font-size: 1.3rem;
         }
         input[type="checkbox"] {
           accent-color: $light-blue;
           width: 3vw;
           height: 3vw;
+          margin-bottom: 0.5em;
         }
       }
       button {
@@ -52,6 +52,7 @@
         padding: 0.5em;
         color: $white;
         font-size: 1.1em;
+        margin-top: 0.5em;
       }
 
       input[type="text"],
@@ -83,7 +84,6 @@
     margin: 0;
 
     .checkboxFooter {
-      width: 100%;
       margin: 0;
       padding: 0;
 
@@ -91,7 +91,7 @@
       input[type="checkbox"] {
         margin: 0;
         padding: 0;
-        width: 100%;
+        font-size: 1.2rem !important;
       }
     }
   }
