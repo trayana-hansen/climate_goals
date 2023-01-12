@@ -30,3 +30,14 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .navMain {
+    position: relative;
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
